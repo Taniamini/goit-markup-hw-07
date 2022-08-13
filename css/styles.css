@@ -245,18 +245,18 @@ img {
   color: var(--accent-txt-cl);
 }
 
-.address__footer {
+.footer-address {
   margin-top: 20px;
   font-style: inherit;
 }
 
-.address__list {
+.footer-address__list {
   display: flex;
   flex-direction: column;
   gap: 9px;
 }
 
-.address__link {
+.footer-address__link {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -264,12 +264,12 @@ img {
 
   transition: color var(--anim);
 }
-.address__link:hover,
-.address__link:focus {
+.footer-address__link:hover,
+.footer-address__link:focus {
   color: var(--accent-txt-cl);
 }
 
-.address__contact {
+.footer-address__contact {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -277,8 +277,8 @@ img {
 
   transition: color var(--anim);
 }
-.address__contact:hover,
-.address__contact:focus {
+.footer-address__contact:hover,
+.footer-address__contact:focus {
   color: var(--accent-txt-cl);
 }
 
