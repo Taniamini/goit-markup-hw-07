@@ -7,12 +7,6 @@
   --second-cl: #ffffff;
   --accent-txt-cl: #2196f3;
   --txt-cl: #757575;
-  --header-txt-cl: #000000;
-  --footer: rgba(255, 255, 255, 0.6);
-  /* bsckground colors */
-  --bg-cl: #2f303a;
-  --item-bg-cl: #eeeeee;
-  --bg-btn-cl: #f5f4fa;
   /* other */
   --items: 3;
   --indent: 30px;
@@ -128,7 +122,7 @@ img {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--header-txt-cl);
+  color: #000000;
 }
 .nav__logo-accent {
   color: var(--accent-txt-cl);
@@ -219,10 +213,7 @@ img {
 */
 
 .footer {
-  /* margin-right: auto;
-  margin-left: auto;
-  max-width: 1600px; */
-  background-color: var(--bg-cl);
+  background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -273,7 +264,7 @@ img {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--footer);
+  color: rgba(255, 255, 255, 0.6);
 
   transition: color var(--anim);
 }
@@ -342,7 +333,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: var(--bg-cl);
+  background-color: #2f303a;
 
   padding-top: 15px;
   padding-bottom: 15px;
@@ -485,11 +476,11 @@ img {
   margin-bottom: 30px;
   width: 270px;
   height: 120px;
-  background-color: var(--bg-btn-cl);
+  background-color: #f5f4fa;
   border-radius: 4px;
 }
 .about__icon {
-  background-color: var(--bg-btn-cl);
+  background-color: #f5f4fa;
 }
 
 /*
@@ -720,7 +711,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-font);
-  background-color: var(--bg-btn-cl);
+  background-color: #f5f4fa;
   border-radius: 4px;
   border: 0;
 
@@ -771,7 +762,7 @@ img {
   padding-bottom: 20px;
   padding-left: 24px;
 
-  border: 1px solid var(--item-bg-cl);
+  border: 1px solid #eeeeee;
   border-top: none;
 }
 
