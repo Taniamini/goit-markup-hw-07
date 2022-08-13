@@ -130,7 +130,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--header-txt-cl);
 }
-.nav__logo--accent {
+.nav__logo-accent {
   color: var(--accent-txt-cl);
 }
 
@@ -241,7 +241,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--second-cl);
 }
-.footer__logo--accent {
+.footer__logo-accent {
   color: var(--accent-txt-cl);
 }
 
@@ -443,7 +443,7 @@ img {
   |==============================
 */
 
-.about__title--visually-hidden {
+.title--visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -548,7 +548,7 @@ img {
   background-color: #f5f4fa;
 }
 
-.team__title--main {
+.team__title-main {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -687,7 +687,7 @@ img {
   | Filter list
   |==============================
 */
-.filter__title--visually-hidden {
+.title--visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -742,7 +742,7 @@ img {
   | Project list
   |==============================
 */
-.project__title--visually-hidden {
+.title--visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
